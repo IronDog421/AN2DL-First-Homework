@@ -1,8 +1,5 @@
 import numpy as np
-
-import tensorflow as tf
 from tensorflow import keras as tfk
-from tensorflow.keras import layers as tfkl
 
 
 class Model:
@@ -14,7 +11,7 @@ class Model:
         The following is an example loading the weights of a pre-trained
         model.
         """
-        self.neural_network = tfk.models.load_model('weights.keras')
+        self.neural_network = tfk.models.load_model('CNN_87.43.keras')
 
     def predict(self, X):
         """
