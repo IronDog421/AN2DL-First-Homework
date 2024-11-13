@@ -11,7 +11,7 @@ class Model:
         The following is an example loading the weights of a pre-trained
         model.
         """
-        self.neural_network = tfk.models.load_model('CNN_87.43.keras')
+        self.neural_network = tfk.models.load_model('CNN_89.21.keras')
 
     def predict(self, X):
         """
