@@ -1,5 +1,4 @@
-# Create the README content in English
-readme_content = """
+
 # AN2DL - First Homework: FeedForward Force
 
 This repository contains the code, report, and supplementary materials for the **First Homework** project in the **Artificial Neural Networks and Deep Learning (AN2DL)** course. The project focuses on classifying 96x96 RGB images of blood cells into eight distinct classes using deep learning techniques.
@@ -33,8 +32,15 @@ This project applies transfer learning and data augmentation techniques to devel
 
 ## Repository Structure
 
-├── .git/ # Git repository files ├── Other Tested Models/ # Additional models used for evaluation ├── Predictions.ipynb # Notebook for making predictions ├── Preprocessing.ipynb # Notebook for data preprocessing ├── Training.ipynb # Notebook for model training ├── report.pdf # Final report detailing the project └── image.png # Visualization (e.g., class distributions, results)
-
+```
+├── .git/                  # Git repository files
+├── Other Tested Models/   # Additional models used for evaluation
+├── Predictions.ipynb      # Notebook for making predictions
+├── Preprocessing.ipynb    # Notebook for data preprocessing
+├── Training.ipynb         # Notebook for model training
+├── report.pdf             # Final report detailing the project
+└── image.png              # Visualization (e.g., class distributions, results)
+```
 
 ---
 
@@ -74,3 +80,35 @@ This project applies transfer learning and data augmentation techniques to devel
    ```bash
    git clone https://github.com/your-repo-url.git
    cd your-repo
+   ```
+
+2. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the Jupyter notebooks:
+   - `Preprocessing.ipynb`: Preprocess the dataset.
+   - `Training.ipynb`: Train the models.
+   - `Predictions.ipynb`: Make predictions on the test set.
+
+---
+
+## Future Work
+
+- Implement progressive unfreezing and curriculum learning strategies.
+- Explore multi-modal data inputs for richer predictions.
+- Apply real-time data processing techniques for deployment.
+
+---
+
+## References
+
+The report contains all references used for this project, including papers and TensorFlow/Keras documentation.
+
+---
+
+## Contact
+
+For any inquiries or suggestions, feel free to contact:
+- Carlos Ruiz Aguirre: [email@example.com](mailto:email@example.com)
