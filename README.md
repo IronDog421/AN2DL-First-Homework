@@ -80,12 +80,15 @@ This project applies transfer learning and data augmentation techniques to devel
    cd your-repo
    ```
 
-2. Install required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. Install required dependencies
+- Tensorflow
+- Keras
+- Numpy
+- Pandas
+- cuDNN (for gpu acceleration)
+- (...)
 
-3. Run the Jupyter notebooks:
+4. Run the Jupyter notebooks:
    - `Preprocessing.ipynb`: Preprocess the dataset.
    - `Training.ipynb`: Train the models.
    - `Predictions.ipynb`: Make predictions on the test set.
@@ -109,4 +112,4 @@ The report contains all references used for this project, including papers and T
 ## Contact
 
 For any inquiries or suggestions, feel free to contact:
-- Carlos Ruiz Aguirre: [email@example.com](mailto:email@example.com)
+- Carlos Ruiz Aguirre: [ruizz.developer@gmail.com](mailto:ruizz.developer@gmail.com)
