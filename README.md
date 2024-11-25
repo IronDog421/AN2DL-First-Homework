@@ -33,13 +33,11 @@ This project applies transfer learning and data augmentation techniques to devel
 ## Repository Structure
 
 ```
-├── .git/                  # Git repository files
 ├── Other Tested Models/   # Additional models used for evaluation
 ├── Predictions.ipynb      # Notebook for making predictions
 ├── Preprocessing.ipynb    # Notebook for data preprocessing
 ├── Training.ipynb         # Notebook for model training
 ├── report.pdf             # Final report detailing the project
-└── image.png              # Visualization (e.g., class distributions, results)
 ```
 
 ---
